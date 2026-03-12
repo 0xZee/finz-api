@@ -1,5 +1,0 @@
-fastapi
-mangum
-yfinance
-pandas
-lxml
