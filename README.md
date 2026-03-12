@@ -1,2 +1,5 @@
 # finz-api
-YFinance REST API
+
+> Secured Stock Market Financial API - FastAPI 
+
+`YFinance REST API`
