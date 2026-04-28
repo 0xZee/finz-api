@@ -208,6 +208,7 @@ def _build_ticker_data(symbol: str) -> dict:
         "price_performance": {
             "currentPrice": fmt(cur),
             "previousClose": fmt(prev),
+            "preMarketChange": fmt(info.get("preMarketChangePercent")),
             "open": fmt(info.get("open")),
             "dayLow": fmt(info.get("dayLow")),
             "dayHigh": fmt(info.get("dayHigh")),
